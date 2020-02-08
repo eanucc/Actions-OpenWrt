@@ -22,9 +22,9 @@ on:
     types: [started]
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
-  CONFIG_FILE: diy.config
+  REPO_URL: https://github.com/Lienol/openwrt
+  REPO_BRANCH: my-19.07-full
+  CONFIG_FILE: lienol.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false

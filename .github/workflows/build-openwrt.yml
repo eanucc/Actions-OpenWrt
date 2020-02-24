@@ -24,11 +24,11 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: openwrt-19.07
-  CONFIG_FILE: .config
+  CONFIG_FILE: lienol.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
-  SSH_ACTIONS: true
-  UPLOAD_BIN_DIR: false
+  SSH_ACTIONS: false
+  UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
 

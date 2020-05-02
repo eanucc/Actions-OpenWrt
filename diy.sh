@@ -11,4 +11,4 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 
 # 添加第三方软件包
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
-git clone https://github.com/kang-mk/luci-app-smartinfo package/luci-app-smartinfo
+git clone https://github.com/ximliu/luci-app-smartinfo package/luci-app-smartinfo

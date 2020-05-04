@@ -23,7 +23,7 @@ on:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: dev-19.07
+  REPO_BRANCH: master
   CONFIG_FILE: lean.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false

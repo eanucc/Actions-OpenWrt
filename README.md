@@ -1,1 +1,2 @@
-ÕâÀïÊÇleanµÄopenwrtµÄ¿½±´¿â¡£
+LEAN'S Openwrt 
+è‡ªåŠ¨ç¼–è¯‘ã€‚

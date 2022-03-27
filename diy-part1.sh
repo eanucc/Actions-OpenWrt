@@ -16,5 +16,5 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git passwall https://github.com/jefferymvp/luci-app-koolproxyR ' >>feeds.conf.default
+echo 'src-git koolproxyR https://github.com/jefferymvp/luci-app-koolproxyR ' >>feeds.conf.default
 # echo 'src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome.git' >>feeds.conf.default

@@ -16,7 +16,7 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/esirplayground/Lienol-obsolete' >>feeds.conf.default
-echo 'src-git media https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git mydiy https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git smartdns https://github.com/WYC-2020/smartdns' >>feeds.conf.default
 # echo 'src-git osdns https://github.com/pymumu/openwrt-smartdns' >>feeds.conf.default
 # echo 'src-git koolproxyR https://github.com/jefferymvp/luci-app-koolproxyR ' >>feeds.conf.default

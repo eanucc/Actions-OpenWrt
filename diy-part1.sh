@@ -17,7 +17,8 @@
 sed -i "/helloworld/d" "feeds.conf.default"
 echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 # echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-echo 'src-git mydiy https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # echo 'src-git smartdns https://github.com/WYC-2020/smartdns' >>feeds.conf.default
 # echo 'src-git osdns https://github.com/pymumu/openwrt-smartdns' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default

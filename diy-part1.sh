@@ -19,7 +19,7 @@ echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf
 # echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-svn golang https://github.com/openwrt/packages/branches/openwrt-22.03/lang/golang' feeds.conf.default
+sed -i '$a src-git golang https://github.com/openwrt/packages/branches/openwrt-22.03/lang/golang' feeds.conf.default
 # echo 'src-git smartdns https://github.com/WYC-2020/smartdns' >>feeds.conf.default
 # echo 'src-git osdns https://github.com/pymumu/openwrt-smartdns' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
